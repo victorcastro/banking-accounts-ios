@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0691212545245E004C5944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0691202545245E004C5944 /* ContentView.swift */; };
 		CE98EA1225451A2C0007FE24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA1125451A2C0007FE24 /* AppDelegate.swift */; };
 		CE98EA1425451A2C0007FE24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA1325451A2C0007FE24 /* SceneDelegate.swift */; };
-		CE98EA1625451A2C0007FE24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA1525451A2C0007FE24 /* ContentView.swift */; };
+		CE98EA1625451A2C0007FE24 /* ListBankAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA1525451A2C0007FE24 /* ListBankAccountsView.swift */; };
 		CE98EA1925451A2C0007FE24 /* BankingAccounts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA1725451A2C0007FE24 /* BankingAccounts.xcdatamodeld */; };
 		CE98EA1B25451A2D0007FE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE98EA1A25451A2D0007FE24 /* Assets.xcassets */; };
 		CE98EA1E25451A2D0007FE24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE98EA1D25451A2D0007FE24 /* Preview Assets.xcassets */; };
@@ -18,10 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0691202545245E004C5944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE98EA0E25451A2C0007FE24 /* BankingAccounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingAccounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE98EA1125451A2C0007FE24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE98EA1325451A2C0007FE24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE98EA1525451A2C0007FE24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE98EA1525451A2C0007FE24 /* ListBankAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBankAccountsView.swift; sourceTree = "<group>"; };
 		CE98EA1825451A2C0007FE24 /* BankingAccounts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BankingAccounts.xcdatamodel; sourceTree = "<group>"; };
 		CE98EA1A25451A2D0007FE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE98EA1D25451A2D0007FE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,8 +62,8 @@
 		CE98EA1025451A2C0007FE24 /* BankingAccounts */ = {
 			isa = PBXGroup;
 			children = (
-				CE98EA2D25451C030007FE24 /* View */,
 				CE98EA2925451A5C0007FE24 /* ViewModel */,
+				CE98EA2D25451C030007FE24 /* View */,
 				CE98EA1125451A2C0007FE24 /* AppDelegate.swift */,
 				CE98EA1325451A2C0007FE24 /* SceneDelegate.swift */,
 				CE98EA1A25451A2D0007FE24 /* Assets.xcassets */,
@@ -69,6 +71,7 @@
 				CE98EA2225451A2D0007FE24 /* Info.plist */,
 				CE98EA1725451A2C0007FE24 /* BankingAccounts.xcdatamodeld */,
 				CE98EA1C25451A2D0007FE24 /* Preview Content */,
+				CE0691202545245E004C5944 /* ContentView.swift */,
 			);
 			path = BankingAccounts;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 		CE98EA2D25451C030007FE24 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CE98EA1525451A2C0007FE24 /* ContentView.swift */,
+				CE98EA1525451A2C0007FE24 /* ListBankAccountsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,9 +172,10 @@
 			files = (
 				CE98EA1225451A2C0007FE24 /* AppDelegate.swift in Sources */,
 				CE98EA1425451A2C0007FE24 /* SceneDelegate.swift in Sources */,
+				CE0691212545245E004C5944 /* ContentView.swift in Sources */,
 				CE98EA2B25451A820007FE24 /* BankAccountViewModel.swift in Sources */,
 				CE98EA1925451A2C0007FE24 /* BankingAccounts.xcdatamodeld in Sources */,
-				CE98EA1625451A2C0007FE24 /* ContentView.swift in Sources */,
+				CE98EA1625451A2C0007FE24 /* ListBankAccountsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

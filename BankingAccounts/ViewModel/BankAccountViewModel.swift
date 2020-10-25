@@ -10,7 +10,7 @@ import CoreData
 
 class BankAccountViewModel: ObservableObject {
     @Published var name = ""
-    @Published var number: Int32 = 0
+    @Published var number: Int64 = 0
     
     func writeData(context: NSManagedObjectContext) {
         let newBankAccount = EntityBankAccount(context: context)
