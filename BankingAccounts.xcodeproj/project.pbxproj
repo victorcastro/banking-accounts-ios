@@ -14,6 +14,7 @@
 		CE98EA1B25451A2D0007FE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE98EA1A25451A2D0007FE24 /* Assets.xcassets */; };
 		CE98EA1E25451A2D0007FE24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE98EA1D25451A2D0007FE24 /* Preview Assets.xcassets */; };
 		CE98EA2125451A2D0007FE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE98EA1F25451A2D0007FE24 /* LaunchScreen.storyboard */; };
+		CE98EA2B25451A820007FE24 /* BankAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98EA2A25451A820007FE24 /* BankAccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE98EA1D25451A2D0007FE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE98EA2025451A2D0007FE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE98EA2225451A2D0007FE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE98EA2A25451A820007FE24 /* BankAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		CE98EA1025451A2C0007FE24 /* BankingAccounts */ = {
 			isa = PBXGroup;
 			children = (
+				CE98EA2D25451C030007FE24 /* View */,
+				CE98EA2925451A5C0007FE24 /* ViewModel */,
 				CE98EA1125451A2C0007FE24 /* AppDelegate.swift */,
 				CE98EA1325451A2C0007FE24 /* SceneDelegate.swift */,
-				CE98EA1525451A2C0007FE24 /* ContentView.swift */,
 				CE98EA1A25451A2D0007FE24 /* Assets.xcassets */,
 				CE98EA1F25451A2D0007FE24 /* LaunchScreen.storyboard */,
 				CE98EA2225451A2D0007FE24 /* Info.plist */,
@@ -76,6 +79,22 @@
 				CE98EA1D25451A2D0007FE24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE98EA2925451A5C0007FE24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE98EA2A25451A820007FE24 /* BankAccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE98EA2D25451C030007FE24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE98EA1525451A2C0007FE24 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +169,7 @@
 			files = (
 				CE98EA1225451A2C0007FE24 /* AppDelegate.swift in Sources */,
 				CE98EA1425451A2C0007FE24 /* SceneDelegate.swift in Sources */,
+				CE98EA2B25451A820007FE24 /* BankAccountViewModel.swift in Sources */,
 				CE98EA1925451A2C0007FE24 /* BankingAccounts.xcdatamodeld in Sources */,
 				CE98EA1625451A2C0007FE24 /* ContentView.swift in Sources */,
 			);
