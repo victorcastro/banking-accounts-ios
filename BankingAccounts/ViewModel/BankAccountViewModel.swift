@@ -9,13 +9,15 @@ import SwiftUI
 import CoreData
 
 class BankAccountViewModel: ObservableObject {
-    @Published var name = ""
-    @Published var number: Int64 = 0
+    @Published var bank = ""
+    @Published var num1 = ""
+    @Published var num2 = ""
     
     func writeData(context: NSManagedObjectContext) {
-        let newBankAccount = EntityBankAccount(context: context)
-        newBankAccount.name = name
-        newBankAccount.number = number
+        let newBankAccount = EntityBA(context: context)
+        newBankAccount.bank = bank
+        newBankAccount.num1 = num1
+        newBankAccount.num2 = num2
         
         do {
             try context.save()
